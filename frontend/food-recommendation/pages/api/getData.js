@@ -13,7 +13,7 @@ export default async function handler(req, res) {
     const paramString = params.toString();
 
     const base_uri = process.env.BACKEND_FULL_URI || "http://127.0.0.1:8000";
-    // const base_uri = "https://cocktail-hyw73de6n-joachims97s-projects.vercel.app"
+    // const base_uri = "https://cocktails-chi.vercel.app"
     const full_uri = `${base_uri}/cocktails`;
     const requestURL = `${full_uri}?${paramString}`;
 
