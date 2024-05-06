@@ -74,3 +74,7 @@ def get_cocktails():
 
     print(cocktail_details)
     return jsonify({"cocktails": cocktail_details})
+
+
+if __name__ == "__main__": 
+    app.run()
